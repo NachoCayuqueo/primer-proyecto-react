@@ -9,28 +9,27 @@ class Card extends React.Component {
     const { title, description, img, leftColor, rightColor } = this.props;
     return (
       <div
-        class="card Fitness-Card"
+        className="card Fitness-Card"
         style={{
           backgroundImage: `url(${circlesImg}), linear-gradient(to right, ${leftColor}, ${rightColor})`,
         }}
       >
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48">
+        <div className="card-content">
+          <div className="media">
+            <div className="media-left">
+              <figure className="image is-48x48">
                 <img src={img} />
               </figure>
             </div>
-            <div class="media-content Fitness-Card-Info">
-              <h1 class="title is-4">{title}</h1>
-              <p class="subtitle is-6">{description}</p>
+            <div className="media-content Fitness-Card-Info">
+              <h1 className="title is-4">{title}</h1>
+              <p className="subtitle is-6">{description}</p>
             </div>
           </div>
         </div>
       </div>
 
-      /*
-      <div className="card Fitness-Card">
+      /*<div className="card Fitness-Card">
         <div>
           <div className="columns is-centered">
             <div className="column is-2">
