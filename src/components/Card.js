@@ -29,7 +29,7 @@ class Card extends React.Component {
         </div>
       </div>
 
-      /*<div className="card Fitness-Card">
+      /*<div className="card">
         <div>
           <div className="columns is-centered">
             <div className="column is-2">
